@@ -1,0 +1,30 @@
+# Environnements Python & Dépendances
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Données & Fichiers lourds (gérés par DVC ultérieurement)
+data/raw/*.csv
+data/processed/*.csv
+*.parquet
+
+# Artefacts de modèles sérialisés
+models/*.pkl
+models/*.onnx
+
+# Outils de qualité & tests
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Système
+.DS_Store
+Thumbs.db
