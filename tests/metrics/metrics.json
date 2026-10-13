@@ -1,0 +1,6 @@
+{
+  "accuracy": 0.73,
+  "f1_score": 0.129,
+  "roc_auc": 0.684,
+  "test_samples": 300
+}
